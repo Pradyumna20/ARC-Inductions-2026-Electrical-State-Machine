@@ -11,6 +11,7 @@ Tinkercad link: https://www.tinkercad.com/things/8yMoD9Ju7rH-electrical-state-ma
 // these are the exact headers used in the SEDS Tinkercad project 
 #include <Wire.h> 
 #include <Adafruit_LiquidCrystal.h> 
+// tinkercad related error, had to fix by suppressing some invalid file headers in tinkercad, basically used some other version
 #define DECODE_NEC 
 #define EXCLUDE_UNIVERSAL_PROTOCOLS 
 #define EXCLUDE_EXOTIC_PROTOCOLS 
