@@ -1,10 +1,11 @@
-/*
-ARC Inductions 2026-2027 - Electrical State Machine
-Task 1: Arduino Master-Slave Monitoring System - MASTER board
-Name: Pradyumna Pathak
-ID: 2025AAPS0291H
+ /*
+// ARC Inductions 2026-2027 - Electrical State Machine
+// Task 1: Arduino Master-Slave Monitoring System - MASTER board
+// Name: Pradyumna Pathak
+// ID: 2025AAPS0291H
 
-*/
+Tinkercad: https://www.tinkercad.com/things/8yMoD9Ju7rH-electrical-state-machine
+ */
 
 #include <Wire.h>   // the two-wire (I2C) link between the boards
 #include <Servo.h>  // the vent servo
@@ -286,3 +287,5 @@ void sendToScreen(int light, int gas) {
   Wire.write(lowByte(gas));
   Wire.endTransmission();
 }
+
+
